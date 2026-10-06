@@ -1,0 +1,88 @@
+[
+  {
+    "id": "page-1",
+    "ownerId": "team-1",
+    "status": "published",
+    "createdAt": "2026-09-01T00:00:00Z",
+    "title": "Workshop registration",
+    "schemaVersion": 1,
+    "attributes": {
+      "locale": "en",
+      "campaign": {
+        "channel": "email"
+      }
+    },
+    "blocks": [
+      {
+        "id": "intro",
+        "type": "text",
+        "data": {
+          "text": "Join our workshop"
+        }
+      },
+      {
+        "id": "form",
+        "type": "form",
+        "data": {
+          "fields": [
+            {
+              "key": "topic",
+              "kind": "choice",
+              "options": [
+                "design",
+                "engineering"
+              ]
+            },
+            {
+              "key": "accessibility",
+              "kind": "text",
+              "required": false
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "page-2",
+    "ownerId": "team-2",
+    "status": "draft",
+    "createdAt": "2026-09-02T00:00:00Z",
+    "title": "Gallery",
+    "schemaVersion": 2,
+    "attributes": {
+      "locale": "fr",
+      "layout": {
+        "density": "compact"
+      }
+    },
+    "blocks": [
+      {
+        "id": "hero",
+        "type": "image",
+        "data": {
+          "src": "/placeholder.svg",
+          "alt": "Gallery preview",
+          "crop": {
+            "x": 0.2,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "details",
+        "type": "group",
+        "data": {
+          "children": [
+            {
+              "type": "text",
+              "data": {
+                "text": "Opening soon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

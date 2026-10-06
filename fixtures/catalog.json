@@ -1,0 +1,65 @@
+[
+  {
+    "id": "product-1",
+    "ownerId": "team-1",
+    "status": "active",
+    "createdAt": "2026-09-01T00:00:00Z",
+    "title": "Trail jacket",
+    "category": "apparel",
+    "attributes": {
+      "material": {
+        "shell": "recycled nylon",
+        "waterproofRating": 15000
+      },
+      "care": [
+        "cold wash",
+        "air dry"
+      ]
+    },
+    "variants": [
+      {
+        "sku": "jacket-blue-m",
+        "attributes": {
+          "color": "blue",
+          "size": "M"
+        },
+        "stock": 8
+      },
+      {
+        "sku": "jacket-black-l",
+        "attributes": {
+          "color": "black",
+          "size": "L"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "product-2",
+    "ownerId": "team-2",
+    "status": "draft",
+    "createdAt": "2026-09-02T00:00:00Z",
+    "title": "Desk lamp",
+    "category": "lighting",
+    "attributes": {
+      "electrical": {
+        "watts": 8,
+        "dimmable": true
+      },
+      "dimensions": {
+        "heightCm": 40
+      }
+    },
+    "variants": [
+      {
+        "sku": "lamp-white",
+        "attributes": {
+          "finish": "white",
+          "plug": "US"
+        },
+        "stock": 12
+      }
+    ]
+  }
+]
