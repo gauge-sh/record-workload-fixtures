@@ -11,7 +11,7 @@ The React interface loads a collection, opens a record as JSON, and saves edits.
 
 `ownerId` is an opaque identifier supplied by an external identity service. This app does not store users, orders, invoices, or other owner entities. Example data is synthetic. The two feature areas are independent.
 
-Catalog records contain category-specific attributes and nested variants. Content records contain versioned shapes and heterogeneous blocks. Current API behavior is list/read/save; database-backed filtering, targeted nested updates, and recurring reports are future work.
+Catalog records contain category-specific attributes and nested variants. Content records contain versioned shapes and heterogeneous blocks. Current API behavior is list/read/save. Persistence requirements are specified in the task.
 
 ## Run
 
